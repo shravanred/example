@@ -8,6 +8,8 @@ import Orderlist from './components/list/orderList';
 import ButtonComponentClass from './components/class-components/button';
 import TodoComponentClass from './components/class-components/todo/todo';
 import ProductListing from './components/class-components/productListing/products';
+import Form from './components/forms/controlled_forms/form';
+
 function App() {
   return (
     /*{<div>
@@ -38,7 +40,10 @@ function App() {
 
 
 
-    <ProductListing/>
+    // <ProductListing/>
+    <>
+      <Form/>
+    </>
   )
 }
 
